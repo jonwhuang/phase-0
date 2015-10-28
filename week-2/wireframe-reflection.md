@@ -1,5 +1,5 @@
-![wireframe-index](week-2/imgs/wireframe-index.png)
-![wireframe-blog-index](week-2/imgs/wireframe-blog-index.png)
+![wireframe-index](/imgs/wireframe-index.png)
+![wireframe-blog-index](/imgs/wireframe-blog-index.png)
 
 * What is a wireframe?
   - A wireframe is like a blueprint for a webpage. It lets the web designer plan the layout of the site before moving on to actually build the site. Wireframes typically include a header, body, and footer. The header will be the first attention-grabber that users will see, followed by the body content, and then the less important stuff in the footer.
