@@ -1,0 +1,89 @@
+#header p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.big {
+    font-size: 30px;
+}
+
+.address {
+    display: block;
+    font-size: 12px;
+}
+.break {
+    display: block;
+}
+
+#inc {
+  font-size: 12px;
+}
+
+html {
+    background-color: #FFFFFF;
+}
+
+* {
+    color: #000080;
+}
+
+a {
+    color: #800080;
+}
+
+a:visited {
+    color: #FF0000;
+}
+
+li {
+    margin: -5px -40px 35px 50px;
+}
+
+li span {
+    font-size: 10px;
+    display: block;
+    margin-bottom: -18.5px;
+}
+
+td {
+    vertical-align: top;
+}
+
+#geico-ad {
+    text-align: center;
+    font-size: 10px;
+}
+
+.geico {
+  display: block;
+}
+
+#comments-concerns {
+  font-size: 13px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+footer {
+  font-size: 10px;
+}
+
+.horizontal-line {
+  border-top: 1px solid gray;
+  margin: 15px 0px 15px 0px;
+}
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+You have to make sure that the stylesheet is properly linked to the HTML file.
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+My pair and I used a table to position the links in the right spot. It was a little difficult getting the our site to match the actual site. It took a lot of tweaking to get it to work.
+What CSS did you use to modify the element style (like size, color, etc.)
+We used size, color, display, borders, margins, and aligns to modify the html to look like it did in the real site.
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+Yes, we had to add a lot of different classes and ids so that we could customize parts of the same line of text, or to add line breaks. Id should only be used once in the file, while class can be used multiple times. We used class multiple times for different spans within a text.
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+I actually think ours had cleaner code because of how it was structured and spaced out. The actual code base did seem a lot messier and confusing. I think that the main reason was because we split our html and css, so everything was more organized into two separate files.
+*/
