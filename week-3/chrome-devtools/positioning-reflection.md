@@ -11,7 +11,7 @@
 - Each of the three touches on different parts of an element. Padding is the innermost layer surrounding the content. Border is the edge of the element in between margin and padding. Margin is the space around the element. Each has their uses for how you want the elements in a page to look.
 
 ###What was your impression of this challenge overall? (love, hate, and why?)
-- I thought it was fun. My pair and I enjoyed playing around with the positioning and it was definitely more fun working on the challenge with someone else.
+- I thought it was fun. My pair and I enjoyed playing around with the positioning and it was definitely more fun working on the challenge with someone else. I realized that I probably should have taken screenshots of my entire screen with the browser instead of cropping out just our image...hopefully that's not too big a deal.
 
 
 ![3.4-1](imgs/3.4-1.png)
