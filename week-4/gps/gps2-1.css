@@ -1,0 +1,41 @@
+header {
+    font-family: sans-serif;
+}
+
+#octocat {
+    display: block;
+    width: 10%;
+    height: auto;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+article {
+    font-family: serif;
+}
+h2 {
+    color: green;
+    font-family: Arial;
+}
+
+.column-1 {
+
+    width: 50%;
+    float: left;
+}
+
+.column-2 {
+
+    width: 50%;
+    float: left;
+    padding-bottom: 8.5%;
+}
+
+footer {
+    padding-top: 5%;
+    display: block;
+    clear: both;
+}
