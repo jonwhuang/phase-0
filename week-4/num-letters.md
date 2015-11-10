@@ -20,3 +20,26 @@ puts 24 * 365
 puts 60 * 24 * 365 * 10
 ```
 
+###Release 5
+- Defining Variables: https://github.com/jonwhuang/phase-0/blob/master/week-4/defining-variables.rb
+- Simple String Methods: https://github.com/jonwhuang/phase-0/blob/master/week-4/simple-string.rb
+- Local Variables and Basic Arithmetical Operations: https://github.com/jonwhuang/phase-0/blob/master/week-4/basic-math.rb
+
+###Release 7
+####How does Ruby handle addition, subtraction, multiplication, and division of numbers?
+- Ruby handles arithmetic using the methods +, -, *, and / to perform the calculations.
+
+####What is the difference between integers and floats?
+- Integers don't have a decimal point, but floats do.
+
+####What is the difference between integer and float division?
+- Integer division returns an integer. If there was a decimal point after the division, the number is rounded down. Float divison returns a float.
+
+####What are strings? Why and when would you use them?
+- Strings are basically groups of letters. They can also include digits, punctuation, and spaces in them. Strings can be added together to connect them together.
+
+####What are local variables? Why and when would you use them?
+- Local variables are a way to save numbers or strings that are assigned to it. They can be used as a placeholder for whatever is assigned to them.
+
+####How was this challenge? Did you get a good review of some of the basics?
+- This challenge was a review for the fundamentals and basics that I've learned from before. It wasn't too difficult and was a refresher for ruby commands.
