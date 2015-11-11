@@ -19,8 +19,6 @@ def valid_triangle?(a, b, c)
     triangle[1] = temp
   end
 
-  #triangle.permutation.to_a.sort { |x, y| x.to_f <=> y.to_f }
-
   if (triangle[0] + triangle[1]) > triangle[2]
     return true
   else
