@@ -11,7 +11,7 @@ puts 'What is your favorite number?'
 number = gets.chomp.to_i + 1
 puts 'A bigger, better number is ' + number.to_s + '.'
 
-#How do you define a local variable? A local variable is a variable that is able to store some information, like num1 = 1 or string = '1'
+#How do you define a local variable? A local variable is a variable that is able to store some information, like num1 = 1 or string = '1'. It is only stored in its current scope.
 #How do you define a method? A method does something. It is defined and can have parameters. The general structure is:
 #def method (parameters)
 # method information
