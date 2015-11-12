@@ -1,4 +1,4 @@
-# I worked on this challenge with Sean.
+# I worked on this challenge with Sean Massih and with (later) David Ma.
 
 
 # Your Solution Below
@@ -25,6 +25,13 @@ def valid_triangle?(a, b, c)
     return false
   end
 
+end
+
+def valid_triangle?(a, b, c)
+  if a < b + c && b < c + a && c < a + b
+    then true
+  else false
+  end
 end
 
 
