@@ -45,7 +45,7 @@ end
 
 #Release 4: Refactored Solution
 def create_groups(list)
-  list.length < 12 ? number_of_groups = list.length / 3 : number_of_groups = list.length / 4
+  number_of_groups = list.length < 12 ? list.length / 3 : list.length / 4
 
   nested_array = (1..number_of_groups).map {|i| []}
   group_pointer = 0
@@ -59,6 +59,8 @@ def create_groups(list)
 end
 
 #Release 5: Driver Code
+p create_groups(['jack_abernethy', 'mohammad_amin', 'zollie_barnes', 'reuben_brandt', 'dana_breen', 'breton_burnett', 'saundra_vanessa_castaneda', 'luis_de_castro', 'nicolette_chambers', 'kerry_choy', 'nick_davies'])
+p create_groups(['jack_abernethy', 'mohammad_amin', 'zollie_barnes', 'reuben_brandt', 'dana_breen', 'breton_burnett', 'saundra_vanessa_castaneda', 'luis_de_castro', 'nicolette_chambers', 'kerry_choy', 'nick_davies','katherine_diangelo', 'adrian_diaz'])
 p create_groups(list_of_names)
 
 #Release 6: Reflect
