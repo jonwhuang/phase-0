@@ -79,7 +79,7 @@ end
 
 class BingoBoard
 
-  @@column = ['B', 'I', 'N', 'G', 'O']
+  COLUMN = ['B', 'I', 'N', 'G', 'O']
 
   attr_accessor :bingo_draw
 
@@ -88,12 +88,12 @@ class BingoBoard
   end
 
   def call
-    @bingo_draw = [@@column[rand(0..4)], rand(100)]
+    @bingo_draw = [COLUMN[rand(0..4)], rand(100)]
   end
 
   def check(bingo_draw = @bingo_draw)
 
-    column_no = @@column.index(bingo_draw[0])
+    column_no = COLUMN.index(bingo_draw[0])
 
     row_no = @bingo_board.index {|row| row[column_no] == bingo_draw[1] }
 
