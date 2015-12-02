@@ -21,7 +21,7 @@ Create Greetings class
 
 class NameData
 
-  attr_accessor :name
+  attr_reader :name
 
   def initialize
     @name = "Jonathan"
@@ -31,8 +31,6 @@ end
 
 
 class Greetings
-
-  attr_accessor :name
 
   def initialize
     @name = NameData.new.name
@@ -45,9 +43,8 @@ class Greetings
 end
 
 greet = Greetings.new
-greet.hello # puts "Hello Student! How wonderful to see you today."
-greet.name = "Sam"
 greet.hello
+
 
 # Reflection
 =begin
