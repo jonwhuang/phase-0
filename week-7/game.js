@@ -24,7 +24,6 @@ var coin = {
   posY: 10
 }
 
-
 var man = {
   posX: 5,
   posY: 1,
@@ -237,16 +236,6 @@ var pouch = {
       }
 
       console.log("Number of coins falling: " + coins.length);
-
-      //display position of all objects
-//       console.log("Your position is " + this.posX);
-//       console.log("Dime's position is column: " + dime.posX + " and row: " + dime.posY);
-//       console.log("Nickel's position is column: " + nickel.posX + " and row: " + nickel.posY);
-//       console.log("Quarter's position is column: " + quarter.posX + " and row: " + quarter.posY);
-
-//       checkCoin(dime);
-//       checkCoin(nickel);
-//       checkCoin(quarter);
 
     }
   }
