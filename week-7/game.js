@@ -316,3 +316,5 @@ pouch.move('left');
 // I don't think I used any brand new built-in methods. I used loops, which I didn't use in my initial solution, and tried to organize my code better during the refactoring process. I also added new functions during the refactoring process that I wanted to try.
 // How can you access and manipulate properties of objects?
 // You can access the properties of objects by calling it, like object.property, and manipulate it by changing, like object.property += 1. You can also add properties to an object with object.new_property = "string".
+
+//Link for game: http://jonwhuang.github.io/projects/week-7-game/game.html
