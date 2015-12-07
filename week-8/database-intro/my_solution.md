@@ -1,4 +1,4 @@
-![Outfit Schema](/database-intro/8.4-schema.png)
+![Outfit Schema](/week-8/database-intro/8.4-schema.png)
 
 1.
 SELECT *
