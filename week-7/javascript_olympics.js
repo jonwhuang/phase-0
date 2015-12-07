@@ -92,5 +92,5 @@ I learned a lot of Javascript syntax. Different built in methods as well as how 
 What are constructor functions?
 Constructor functions are similar to Ruby classes. It is used to create an object. Properties and methods can be created inside the constructor function that is specific to that object.
 How are constructors different from Ruby classes (in your research)?
-Constructors seem to be structured like an object itself, while Ruby classes have that type of set-up.
+Constructors seem to be structured like an object itself, while Ruby classes have to set up the object with an initialize as well as defining its own methods.
 */
