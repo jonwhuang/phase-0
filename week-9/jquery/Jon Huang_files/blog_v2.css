@@ -1,0 +1,109 @@
+h2 {
+  font-size: 1.4em;
+  color: gray;
+  margin-top: 1em;
+  margin-bottom: 0.75em;
+  text-align: center;
+  font-family: 'Hind', sans-serif;
+}
+
+h3 {
+  position: absolute;
+  color: gray;
+  font-size: 1em;
+  right: 0;
+  margin-right: 2%;
+  text-align: center;
+}
+
+article p {
+  font-family: 'Hind', sans-serif;
+  text-align: left;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+}
+
+aside {
+  float: right;
+  margin-top: -30%;
+  margin-right: 5%;
+  font-size: 1.5em;
+  color: #A9A9A9;
+}
+
+#blog-nav {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+#blog-nav img {
+  width: 30px;
+  height: auto;
+  padding: 5px;
+}
+
+#blog-nav ul li {
+  display: inline;
+  font-size: 1.1em;
+}
+
+#blog-nav img:hover{
+  font-weight: bold;
+  width: 40px;
+  padding: 0;
+}
+
+.blog-name {
+  color: gray;
+  margin: 0.2em;
+  font-size: 0.75em;
+}
+
+article ol, article ul {
+  margin-bottom: 1em;
+}
+
+article ul li, article ol li {
+  font-family: 'Hind', sans-serif;
+  text-align: left;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 1em;
+}
+
+#inline img{
+  width: 15%;
+  height: auto;
+  float: left;
+  margin-right: 0%;
+}
+
+#inline-block img{
+  width: 15%;
+  height: auto;
+  float: right;
+  margin-left: 0%;
+}
+
+
+pre {
+  font-size: 1em;
+  background-color: black;
+  color: #32CD32;
+  width: 60%;
+  margin: 0.5em 20% 0.5em 20%;
+  white-space: pre-wrap;
+  border-radius: 8px;
+}
+
+code {
+  font-family: 'Courier New', 'sans-serif';
+}
+
+.comment {
+  color: white;
+}
+
