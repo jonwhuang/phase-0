@@ -1,7 +1,7 @@
 // U3.W9:JQuery
 
 
-// I worked on this challenge [by myself, with: ].
+// I worked on this challenge with Jenna Espezua.
 // This challenge took me [#] hours.
 
 $(document).ready(function(){
@@ -86,3 +86,11 @@ img.on('mouseleave', function(e){
 
 
 })  // end of the document.ready function: do not remove or write DOM manipulation below this.
+
+//Reflection:
+// What is jQuery?
+// jQuery is a Javascript library that can be used to handle animations and other events on HTML.
+// What does jQuery do for you?
+// jQuery lets you modify a web page based on what you want to do.
+// What did you learn about the DOM while working on this challenge?
+// I learned a couple of different jQuery methods. I think the #click method will definitely come in use later on.
